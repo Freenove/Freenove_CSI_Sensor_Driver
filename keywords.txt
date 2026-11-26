@@ -1,0 +1,56 @@
+#######################################
+# Syntax Coloring Map for Freenove_CSI_Sensor_Driver
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+Freenove_CSI_Sensor_Driver	KEYWORD1
+freenove_csi_framesize_dim_t	KEYWORD1
+freenove_csi_sensor_id_t	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+end	KEYWORD2
+isStarted	KEYWORD2
+setFrameSize	KEYWORD2
+frameSize	KEYWORD2
+frameSizeCount	KEYWORD2
+frameSizeName	KEYWORD2
+setFlip	KEYWORD2
+getFlip	KEYWORD2
+sensorName	KEYWORD2
+sensorId	KEYWORD2
+listSupportedFrameSizes	KEYWORD2
+FRAMESIZE_DEFAULT	LITERAL1
+freenove_csi_framesize_count	KEYWORD2
+freenove_csi_framesize_get	KEYWORD2
+freenove_csi_framesize_name	KEYWORD2
+freenove_csi_set_flip	KEYWORD2
+freenove_csi_get_flip	KEYWORD2
+width	KEYWORD2
+height	KEYWORD2
+streamQuality	KEYWORD2
+photoQuality	KEYWORD2
+maxJpegSize	KEYWORD2
+allocJpegBuf	KEYWORD2
+freeJpegBuf	KEYWORD2
+encodeJpeg	KEYWORD2
+captureFrame	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+DEFAULT_SDA_PIN	LITERAL1
+DEFAULT_SCL_PIN	LITERAL1
+DEFAULT_I2C_PORT	LITERAL1
+DEFAULT_I2C_FREQ_HZ	LITERAL1
+DEFAULT_BUF_COUNT	LITERAL1
+DEFAULT_STREAM_QUALITY	LITERAL1
+DEFAULT_PHOTO_QUALITY	LITERAL1
+FREENOVE_CSI_SENSOR_UNKNOWN	LITERAL1
+FREENOVE_CSI_SENSOR_IMX219	LITERAL1
+FREENOVE_CSI_SENSOR_IMX708	LITERAL1
+FREENOVE_CSI_SENSOR_OV5647	LITERAL1
